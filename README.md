@@ -21,7 +21,7 @@ but also provied useful information for playing the game.
 ### 3. Final Results of Project:Genshin
 ![image](https://user-images.githubusercontent.com/118319485/204201350-aabb3b3a-4b84-41f3-94ee-5514f8659e57.png)
 
-▲ Project Flowchart in Korean
+▲ Project Flowchart written in Korean
 
 Unless 'end' was entered by user, the program will not be end and it repeated by selecting the function
 to be executed. In addition, according to the enternd number, the function of <1. character rerun list> or
