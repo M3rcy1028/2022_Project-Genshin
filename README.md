@@ -1,7 +1,5 @@
 # C_project, Project:Genshin
 
-# C_project, Project:Genshin
-
 ### 1. Project Overview
  This project is **a projct of Kwangwoon Univesity's 'Advanced C Programming' class in the second 
 semester of 2022.** The name was named 'Project:Genshin' by taking the English name of *原神*, which
