@@ -13,8 +13,8 @@ its first release version and rerun versions.
 
 ### 2. Purpose and necessity of the project
  So far, without a program that makes a list of limited characters, users have made it themselves with
-'excel' every time each version starts. However, if the maker does not create or update list, the 
-lastest information will not be updated. Also, there is a hassle of having to make it manually. Hence, 
+'excel' every time each version starts. **However, if the maker does not create or update list, the 
+lastest information will not be updated.** Also, there is a hassle of having to make it manually. Hence, 
 our project was made to minimize this inconvenience and to add additional functions to not only load the list, 
 but also provied useful information for playing the game.
 
