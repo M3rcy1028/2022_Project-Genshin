@@ -227,13 +227,12 @@ void ch_Venti()
     St_Venti.nSort = 3; //사용하는 무기 코드
     St_Venti.nTimes = 4; //복각한 횟수
     St_Venti.nLocal = 0; //출신 지역 코드
-   
+
     rerunVer[0][0] = 1.0; //처음 출시일
     rerunVer[0][1] = 1.4;
     rerunVer[1][0] = 2.6;
     rerunVer[2][0] = 3.1;
     
-
     PrintInfo(St_Venti, rerunVer); //캐릭터 정보 출력하기
 } //end of function 
 

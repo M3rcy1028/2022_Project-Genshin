@@ -16,6 +16,25 @@
 #include "ChracterInfo.h"
 #include "Design.h"
 
+/*
+    포인터 (Y)
+    함수 (Y)
+    배열 (Y)
+    문자처리 (Y)
+    문자열처리 (Y)
+    구조체 배열 
+    중첩 구조체
+    구조체와 포인터 (Y)
+    함수 공용체와 열거형 (Y)
+    전처리 (Y)
+    파일 입출력 (Y)
+    텍스트 파일 (Y)
+    이진 파일
+    순차 선형 리스트
+    연결 리스트
+    스택큐
+*/
+
 /*캐릭터의 정보를 찾는 함수 선언*/
 void Main_SelectCh();
 void ch_ameno();
@@ -44,10 +63,11 @@ int main()
 
     printf("  프로그램이 성공적으로 실행되었습니다\n"); //첫 실행 메세지
     int repeat = 0; //프로그램 반복 횟수
+    
     while (repeat <= 10) //총 10번까지 반복
     {
         int select = 0; //실행할 기능의 번호
-        char str[100]; //입력값을 받을 변수
+        char* str = (char*)malloc(sizeof(char)*100); //입력값을 받을 변수 메모리 할당
 
         printf("  -----------------------------------------------------------------\n"); //문구 출력
         printf("  계속하려면 아무값이나 입력하세요...(종료는 end 입력) "); //문구 출력
@@ -85,8 +105,18 @@ int main()
             } //end of switch-case
         } //end of if-else statement
         printf("\n\n"); //개행
+        free(str); //메모리 해제
     } //end of while statement
-}
+    if (repeat >= 10)
+    {
+        printf("\n\n  [[프로그램을 너무 많이 실행하였습니다.");
+    }
+    else
+    {
+        printf("\n\n  [[프로그램을 종료합니다...]]\n\n");
+    }
+    return 0;
+} //end of main
 
 
 /*캐릭터의 정보를 선택하는 함수*/    

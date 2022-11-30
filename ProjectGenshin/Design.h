@@ -31,7 +31,7 @@ typedef enum ColorKinds
     brightYellow,
     brightWhite,
     violet,
-}Colorkinds;
+} Colorkinds;
 
 /*Console Windows창 Title 변환 함수 선언*/
 void TitleChange()
