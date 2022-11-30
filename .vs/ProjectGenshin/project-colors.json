@@ -5,6 +5,11 @@
       "ProjectGuid": "b6abbb10-c118-4f19-851d-d7b2d87c2162",
       "DisplayName": "ProjectGenshin",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "기타 파일",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1
