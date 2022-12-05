@@ -1,7 +1,7 @@
 # C_project, Project:Genshin
 
 ### 1. Project Overview
- This project is **a projct of Kwangwoon Univesity's 'Advanced C Programming' class in the second 
+ This project is **a project of Kwangwoon Univesity's 'Advanced C Programming' class in the second 
 semester of 2022.** The name was named 'Project:Genshin' by taking the English name of *原神*, which
 became the motif of the project of idea.
  Currently, there are a total of more than 60 characters in the game, and 22 of them are five-star
