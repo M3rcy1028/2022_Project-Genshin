@@ -41,4 +41,3 @@ to the function selection.
 
 
 -written by 우나륜-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=M3rcy1028&theme=swift&show_icons=true)
